@@ -22,7 +22,7 @@
     }
   },
   "scripts": {
-    "build": "babel src -d lib",
-    "test": "jest"
+    "start": "some command to be run", // you need to add this line
+    "test": "(eslint lib || true) && jest"
   }
 }
