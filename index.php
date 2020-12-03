@@ -13,8 +13,6 @@ require 'post/index.php';
 
 }
 
-//this block for bot,moder
-
 else{
 
 require 'main.php';
