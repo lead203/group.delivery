@@ -20,5 +20,9 @@
     "commitizen": {
       "path": "./node_modules/cz-conventional-changelog"
     }
+  },
+  "scripts": {
+    "build": "babel src -d lib",
+    "test": "jest"
   }
 }
