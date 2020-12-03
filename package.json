@@ -13,16 +13,16 @@
   },
   "repository": "yarnpkg/yarn",
   "bin": {
-    "yarn": "./bin/yarn.js",
-    "yarnpkg": "./bin/yarn.js"
+    "yarn": "bin/yarn.js",
+    "yarnpkg": "bin/yarn.js"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "node_modules/cz-conventional-changelog"
     }
   },
   "scripts": {
-    "start": "some command to be run", // you need to add this line
+    "start": "some command to be run",
     "test": "(eslint lib || true) && jest"
   }
 }
